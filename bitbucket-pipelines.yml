@@ -1,0 +1,9 @@
+clone:
+  depth: full
+
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - ./heroku-deploy.sh ts-node-api-master

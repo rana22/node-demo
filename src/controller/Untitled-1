@@ -1,0 +1,8 @@
+CREATE TABLE MyGuests (
+id INT,
+benzenePPM VARCHAR(30) NOT NULL,
+toluenePPM VARCHAR(30) NOT NULL,
+ethylBenzenePPM VARCHAR(50),
+rxylenePPM FLOAT,
+sampleId int
+)
